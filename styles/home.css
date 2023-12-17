@@ -1,0 +1,63 @@
+/*DEVELOPER: Jeffrey Vasquez, IS117-005, Fall 2023*/
+h1{
+    text-align: center;
+}
+
+
+p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    opacity: 0.9;
+    color: black;
+    text-align: center;
+ }
+ 
+ .footer p{
+    font-size: 15px;
+ }
+
+/* Carousel CSS */
+carousel-inner {
+    position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.navbar-inverse .navbar-brand {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+  .navbar-brand img {
+    height: 100%;
+    margin-right: 20px;
+  }
+
+  /* change the background color */
+.navbar- {
+    background-color: #ff5500;
+}
+
+.nav-link {
+    font-size: 17px;
+}
+
+.row {
+    margin: 0;
+}
+
+/* anime reviews CSS */
+h1.bruh{
+    font-size: 50px;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}

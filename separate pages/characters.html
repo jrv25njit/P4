@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--DEVELOPER: Jeffrey Vasquez, IS117-005, Fall 2023-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/styles/body.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Character Reviews</title>
+    <link rel ="icon" type = "image/png" href = "/media/favicon.png">
+    <!--I didn't make it, I found the png from here
+    https://www.deviantart.com/ssjrose890/art/Goku-SSJ2-Chibi-1-830337743
+    -->
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body{
+          background-image: url(/media/bg2.jpg);
+        }
+      </style>
+
+</head>
+
+<body>
+
+
+    <!--nav menu-->
+    <div class="container-fluid">
+        <div class="row">
+                <nav class="navbar navbar-expand-md
+                        justify-content-start
+                        bg-dark navbar-dark
+                        col-12">
+    
+                    <!-- Brand -->
+                    <img class="navbar-brand" src = "/media/favicon.png" href="#"></a>
+                    <!-- Responsive Button for the smaller menu -->
+                    <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <!-- Links -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="/index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/separate pages/reviews.html">All Reviews</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                                   data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Character Reviews
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Character Reviews</a>
+                                    <a class="dropdown-item" href="#goku">Goku</a>
+                                    <a class="dropdown-item" href="#deku">Izuku Midoriya</a>
+                                    <a class="dropdown-item" href="#luffy">Monkey D. Luffy</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                                 data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Anime Reviews
+                              </a>
+                              <div class="dropdown-menu">
+                                <a class="dropdown-item" href="/separate pages/anime.html">Anime Reviews</a>
+                                <a class="dropdown-item" href="/separate pages/anime.html#dragon-super">Dragon Ball Super</a>
+                                <a class="dropdown-item" href="/separate pages/anime.html#my-hero">My Hero Academia</a>
+                                <a class="dropdown-item" href="/separate pages/anime.html#one-piece">One Piece</a>
+                            </div>
+                          </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/separate pages/contact.html">Contact Me</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+        </div>
+             
+    <!--Start with things that isn't
+    the nav menu (aka actual body)-->
+
+    <h1 class = "bruh"><b><br>Character Reviews</b></h1>
+    <hr>
+    <div class = "anime">
+        <br><h2 class = "dbs"><a id = "goku">Son Goku</a></h2>
+        <br><img src = "/media/goku.png" alt = "Goku" width = "35%" height = "auto">
+        <figcaption>Lorem ipsum dolor sit amet consectetur, 
+            adipisicing elit. Rerum, quod. Incidunt delectus<br>
+            modi providentsequi ipsam minus dignissimos, nemo exercitationem? Veritatis<br>porro, nulla unde deleniti laudantium dolorum labore error suscipit!
+        </figcaption><br>
+        <hr>
+    </div>
+    <div class = "anime2">
+        <br><h2 class = "mha"><a id = "deku">Izuku Midoriya</a></h2>
+        <br><img src = "/media/deku.png" alt = "Izuku Midoriya" width = "30%" height = "auto">
+        <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Rerum inventore voluptatibus cumque nisi eaque, hic incidunt ea necessitatibus, quia molestiae, <br> quo fuga obcaecati repellendus vitae architecto?<br> Possimus ex laudantium ratione?
+        Voluptas iste fugit vel accusamus laborum
+        </figcaption><br>
+        <hr>
+    </div>
+    <div class = "anime3">
+        <br><h2 class = "op"><a id = "luffy">Monkey D. Luffy</a></h2>
+        <br><img src = "/media/luffy.jpg" alt = "Luffy" width = "30%" height = "auto">
+        <br><figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Velit voluptate atque enim dolorum error commodi nam, eos laudantium, sint minima repellat <br>perferendis recusandae excepturi illum? Necessitatibus sunt beatae itaque vel?
+        <br>‎ 
+        </figcaption>
+    </div>
+    <br>
+</head>
+<div class="footer">
+    <p>&copy; Jeffrey V. | 2023</p>
+</div>
+
+</body>
+</html>     

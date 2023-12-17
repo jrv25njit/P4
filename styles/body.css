@@ -1,0 +1,131 @@
+/*DEVELOPER: Jeffrey Vasquez, IS117-005, Fall 2023*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    opacity: 0.9;
+    color: black;
+    text-align: center;
+ }
+
+  /* change the background color */
+
+.nav-link {
+    font-size: 17px;
+}
+
+.row {
+    margin: 0;
+}
+
+/* anime/character reviews CSS */
+h1.bruh{
+    text-align: center;
+    font-size: 50px;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.anime img {
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+}
+.anime .dbs{
+    font-size: 30px;
+    text-align: justify;
+    margin: 10px;
+    padding: 0px;
+}
+.anime figcaption{
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px;
+    padding: 0px;
+}
+
+.anime2 img {
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.anime2 figcaption{
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px;
+    padding: 0px;
+}
+
+.anime2 .mha{
+    font-size: 30px;
+    text-align: justify;
+    margin: 10px;
+    padding: 0px;
+}
+.anime2 .figcaption{
+    font-size: 20px;
+    text-align: left;
+    margin: 10px;
+    padding: 0px;
+}
+.anime3 img {
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+}
+.anime3 .op{
+    font-size: 30px;
+    text-align:left;
+    margin: 10px;
+    padding: 0px;
+}
+.anime3 figcaption{
+    font-size: 20px;
+    float:inline-start;
+    text-align:left;
+    margin: 10px;
+    padding: 0px;
+}
+.anime hr{
+    float:inline-start;
+    width: 50%;
+    margin: auto;
+}
+
+.anime2 hr{
+    float:inline-start;
+    width: 50%;
+    margin: auto;
+}
+
+/* reviews CSS */
+.shonen img{
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float: center;  
+}
+.shonen p{
+    font-size: 20px;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+}
+.shonen ul{
+    font-size: 20px;
+    text-align: left;
+    margin: 30px;
+    padding: 10px;
+}
+.shonen h3{
+    font-size: 30px;
+    margin: 30px;
+    padding: 10px;
+}
